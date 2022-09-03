@@ -1,0 +1,73 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: red
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: darkblue
+}
+
+p {
+    text-align: left;
+    font-size: 40px;
+}
+
+h3 {
+    color: darkred;
+    text-align: center;
+    font-size: 15px;
+}
+
+h4 {
+    color: purple;
+    text-align: center;
+    font-size: 25px;
+}
+
+h5 {
+    color: darkviolet;
+    text-align: top;
+    font-size: 25px;
+}
+
+h6 {
+    color: darkgreen;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 46.12%;
+    padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+</style></head>clear: both;
+    display: table;
+}
+
+</style></head>
